@@ -1,0 +1,152 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:weightSum="4">
+
+        <!-- home 按钮 -->
+
+        <LinearLayout
+            android:id="@+id/button_state1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:tag="home">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_message_selector"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:textColor="@color/text_service_color"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <!-- 理财 -->
+
+        <LinearLayout
+            android:id="@+id/button_state2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:tag="service">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_service_selector"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="理财"
+                android:textColor="@color/text_service_color"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <!-- 我的 -->
+
+        <LinearLayout
+            android:id="@+id/button_state3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:tag="settings">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_setting_selector"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="借款"
+                android:textColor="@color/text_service_color"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <!-- 更多 -->
+
+        <LinearLayout
+            android:id="@+id/button_state4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:tag="personal">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/ic_profile_selector"
+                    android:clickable="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textColor="@color/text_service_color"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</merge>

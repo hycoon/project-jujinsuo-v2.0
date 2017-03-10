@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <!-- 选中状态 -->
+    <color name="text_select">#DC4D5A</color>
+    <!-- 默认状态 -->
+    <color name="text_default">#4C4C4C</color>
+    <!-- 触摸状态 -->
+    <color name="text_pressed">#4C4C4C</color>
+    <!-- 用于突出的文字、按钮触摸 -->
+    <color name="color_0">#b93523</color>
+    <!-- 用于突出的文字、按钮选中 -->
+    <color name="color_1">#E9422C</color>
+    <!-- 用于普通段落文字、标签栏等：如标文字、消息文字、资料介绍 -->
+    <color name="color_2">#333333</color>
+    <!-- 辅助色，小面积使用按钮、引导文字等：如编辑按钮 -->
+    <color name="color_3">#444D5C</color>
+    <!-- 用于普通级信息引导词 -->
+    <color name="color_4">#666666</color>
+    <!-- 用于辅助、次要的文字信息、普通按钮描边:如普通说明性文字 -->
+    <color name="color_5">#999999</color>
+    <!-- 用于分割线，标签描边，标进度背景 -->
+    <color name="color_6">#d7d7d7</color>
+    <!-- 背景色-->
+    <color name="background">#f7f7f7</color>
+    <!--  红色-->
+    <color name="title_red">#ff3333</color>
+    <!--淡蓝色-->
+    <color name="light_blue">#66ccff</color>
+    <!--用于一般说明文字颜色-->
+    <color name="intro_text_gray">#bdbdbd</color>
+    <color name="orange_text">#FF6600</color>
+    <!--优惠卷字体颜色-->
+    <color name="coupon_t_text">#13B4C1</color>
+    <color name="coupon_j_text">#6A0DE7</color>
+    <color name="coupon_d_text">#1ED40A</color>
+    <!--  拖拽控件相关-->
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffcacaca</color>
+    <color name="subscribe_item_disabled_bg_night">#ff2b2b2b</color>
+    <color name="default_text">#ff454545</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcacaca</color>
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+    <color name="subscribe_item_text_color_pressed">#ffffffff</color>
+    <color name="subscribe_item_pressed_bg_night">#ff505050</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcacaca</color>
+    <color name="subscribe_item_normal_bg_night">#ff252525</color>
+    <color name="subscribe_item_normal_bg">#ffffffff</color>
+    <color name="subscribe_bg">#fffafafa</color>
+    <color name="subscribe_tip_text">#dd2e2e2e</color>
+    <color name="subscribe_seperate_line">#ffcdcdcd</color>
+    <color name="subscribe_tip_more_text">#bb2e2e2e</color>
+    <color name="subscribe_activity_bg">#ffefefef</color>
+
+
+    <color name="arc_succ_color">#10B703</color>
+    <color name="arc_fail_color">#D93549</color>
+    <!--圆点颜色-->
+    <color name="circle_orange">#FF7F24</color>
+    <color name="circle_green">#00EE00</color>
+    <color name="circle_blue">#1E90FF</color>
+    <color name="circle_violet">#9400D3</color>
+    <color name="circle_red">#EE2C2C</color>
+    <color name="circle_light_yellow">#CDCD00</color>
+    <color name="circle_light_green">#54FF9F</color>
+    <color name="circle_dark_blue">#0000FF</color>
+    <color name="circle_yellow">#FDE936</color>
+
+
+</resources>
