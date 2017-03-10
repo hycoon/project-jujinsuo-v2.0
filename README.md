@@ -20,3 +20,6 @@ p2p项目UI
 
 5、银行卡
 ![这里写图片描述](https://github.com/hycoon/project-jujinsuo-v2.0/blob/master/screenshort/bankcard.jpg)
+
+
+后续的其他功能更新我会慢慢加进来，稍后继续.....
